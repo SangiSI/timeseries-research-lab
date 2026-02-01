@@ -1,5 +1,7 @@
 # Time Series Research Lab
 
+![Pylint](https://github.com/SangiSI/timeseries-research-lab/actions/workflows/pylint.yml/badge.svg)
+
 Applied time series forecasting and anomaly detection using ML, statistical baselines, and residual analysis.
 
 ---
