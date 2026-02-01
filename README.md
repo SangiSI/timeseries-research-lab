@@ -1,11 +1,11 @@
 # Time Series Research Lab
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
 ![Pylint](https://github.com/SangiSI/timeseries-research-lab/actions/workflows/pylint.yml/badge.svg)
-![ML Pipeline](https://img.shields.io/badge/ML-Pipeline-teal?style=for-the-badge)
-![Project](https://img.shields.io/badge/Type-Research%20Lab-purple?style=for-the-badge)
-![Notebooks](https://img.shields.io/badge/Notebooks-Jupyter-orange?style=for-the-badge&logo=jupyter)
-![License](https://img.shields.io/github/license/SangiSI/timeseries-research-lab?style=for-the-badge)
+![ML Pipeline](https://img.shields.io/badge/ML-Pipeline-teal)
+![Type](https://img.shields.io/badge/Type-Research%20Lab-purple)
+![Notebooks](https://img.shields.io/badge/Notebooks-Jupyter-orange?logo=jupyter)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 Applied time series forecasting and anomaly detection using ML, statistical baselines, and residual analysis.
 
