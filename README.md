@@ -31,28 +31,35 @@ The project mirrors how forecasting and anomaly detection systems are typically 
 
 ## Repository Structure
 
+```text
 timeseries-research-lab/
 ├── data/
-│ ├── synthetic_kpi.csv # synthetic time series dataset
-│ ├── feature_table.parquet # Generated feature table
-│ └── README.md # Dataset documentation
+│   ├── synthetic_kpi.csv          # Synthetic time series dataset
+│   ├── feature_table.parquet      # Generated feature table
+│   └── README.md                  # Dataset documentation
+│
 ├── notebooks/
-│ ├── 01_data_exploration.ipynb
-│ ├── 02_feature_engineering.ipynb
-│ ├── 03_forecasting_models.ipynb
-│ ├── 04_anomaly_detection.ipynb
-│ └── 05_model_comparison.ipynb
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   ├── 03_forecasting_models.ipynb
+│   ├── 04_anomaly_detection.ipynb
+│   └── 05_model_comparison.ipynb
+│
 ├── src/
-│ ├── features.py # Feature engineering utilities
-│ ├── forecasting.py # Forecasting models and helpers
-│ ├── anomaly.py # Anomaly detection logic
-│ └── metrics.py # Evaluation metrics
+│   ├── features.py                # Feature engineering utilities
+│   ├── forecasting.py             # Forecasting models and helpers
+│   ├── anomaly.py                 # Anomaly detection logic
+│   └── metrics.py                 # Evaluation metrics
+│
 ├── scripts/
-│ └── run_pipeline.py # End-to-end executable pipeline
+│   └── run_pipeline.py             # End-to-end executable pipeline
+│
 ├── experiments/
-│ ├── forecast_metrics.csv
-│ └── anomaly_metrics.csv
+│   ├── forecast_metrics.csv
+│   └── anomaly_metrics.csv
+│
 └── README.md
+```
 
 ---
 
