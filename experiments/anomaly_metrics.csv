@@ -1,3 +1,3 @@
-method,precision,recall,f1
-Z-score(resid),0.75,1.0,0.8571428571428571
-IsolationForest(resid),0.5,1.0,0.6666666666666666
+precision,recall,f1,method
+0.75,1.0,0.8571428571428571,zscore
+0.5,1.0,0.6666666666666666,isoforest
