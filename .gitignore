@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual env
+.venv/
+
+# Generated artifacts
+data/*.parquet
+experiments/*.csv
