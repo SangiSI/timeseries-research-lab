@@ -1,0 +1,52 @@
+[project]
+name = "timeseries-research-lab"
+version = "0.1.0"
+description = "Applied time series forecasting and anomaly detection using ML, statistical baselines, and residual analysis"
+readme = "README.md"
+requires-python = ">=3.10"
+
+authors = [
+  { name = "Sangam Kumar Singh" }
+]
+
+license = { text = "MIT" }
+
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "scikit-learn>=1.3",
+  "matplotlib>=3.8",
+
+  # Default Parquet engine (stable on macOS)
+  "fastparquet>=2023.10.0",
+]
+
+[project.optional-dependencies]
+# Optional alternative parquet engine
+parquet-pyarrow = [
+  "pyarrow>=14.0",
+]
+
+# Dev-only tooling used by CI
+dev = [
+  "pylint>=3.0",
+]
+
+# -------------------------
+# Pylint configuration
+# -------------------------
+[tool.pylint.main]
+py-version = "3.10"
+ignore = [
+  "data",
+  "experiments",
+  ".venv",
+  "__pycache__",
+]
+
+[tool.pylint.messages_control]
+disable = [
+  "C0114", # missing-module-docstring
+  "C0115", # missing-class-docstring
+  "C0116", # missing-function-docstring
+]
