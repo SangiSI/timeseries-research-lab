@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Timeseries Research Lab"
+message: "If you use this work, please cite it."
+type: software
+
+authors:
+  - given-names: Sangam Kumar
+    family-names: Singh
+    orcid: https://orcid.org/0000-0002-4448-8285
+    website: https://github.com/SangiSI
+
+repository-code: https://github.com/SangiSI/timeseries-research-lab
+url: https://github.com/SangiSI/timeseries-research-lab
+
+license: MIT
+year: 2026
