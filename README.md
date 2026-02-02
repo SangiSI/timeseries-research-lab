@@ -9,6 +9,8 @@
 
 Applied time series forecasting and anomaly detection using ML, statistical baselines, and residual analysis.
 
+> ⭐ If this repository helps you, please consider starring it and crediting the source.
+
 ---
 
 ## Overview
@@ -61,10 +63,12 @@ timeseries-research-lab/
 ├── scripts/
 │   └── run_pipeline.py             # End-to-end executable pipeline
 │
-├── experiments/
+├── experiments/                    # Generated metrics
 │   ├── forecast_metrics.csv
 │   └── anomaly_metrics.csv
 │
+├── pyproject.toml                  # Environment & dependency definition
+├── uv.lock                         # Locked, reproducible environment
 └── README.md
 ```
 
@@ -127,9 +131,41 @@ Notebooks are intended for **analysis and explanation**, not production executio
 
 In addition to notebooks, the repository includes a **fully runnable pipeline** that executes the complete workflow end-to-end without notebooks.
 
+### Environment setup
+
+```bash
+uv sync --extra dev
+```
+
 ### Run the pipeline
 
 From the repository root:
 
 ```bash
 python -m scripts.run_pipeline
+```
+
+### Generated outputs
+
+Running the pipeline produces:
+
+1. data/feature_table.parquet
+2. data/forecast_predictions.parquet
+3. data/anomaly_outputs.parquet
+4. experiments/forecast_metrics.csv
+5. experiments/anomaly_metrics.csv
+
+All outputs are reproducible and excluded from version control.
+
+---
+
+## Attribution & Credit
+
+If you use this repository — including its ideas, code, structure, or pipeline —
+in research, blogs, demos, internal tools, or production systems, please credit:
+
+**Sangam Kumar Singh**  
+GitHub: https://github.com/SangiSI  
+Repository: https://github.com/SangiSI/timeseries-research-lab
+
+This project is released under the MIT License, which requires attribution.
