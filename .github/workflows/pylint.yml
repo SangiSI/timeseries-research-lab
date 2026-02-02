@@ -30,4 +30,4 @@ jobs:
 
       - name: Run Pylint
         run: |
-          pylint . --score=y || true
+          uv run pylint . --score=y || true
